@@ -57,6 +57,8 @@ public class SearchCustomer extends javax.swing.JInternalFrame {
         male = new javax.swing.JRadioButton();
         female = new javax.swing.JRadioButton();
 
+        setClosable(true);
+
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel1.setText("Welcome To Search panel");
 
